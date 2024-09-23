@@ -1,4 +1,8 @@
-package Lessen1;
+package HomeWork;
+
+// Задание 1. Нахождение факториала числа
+// Напишите метод factorial, который принимает число n и возвращает его
+// факториал. Если число n < 0, метод должен вернуть -1.
 
 public class ht1 {
     public int factorial(int n) {
