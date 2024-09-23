@@ -2,7 +2,7 @@
 // Напишите метод factorial, который принимает число n и возвращает его
 // факториал. Если число n < 0, метод должен вернуть -1.
 
-package Lessen1;
+package HomeWork;
 
 public class HTask1 {
     public int factorial(int n) {
