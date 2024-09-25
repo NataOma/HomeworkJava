@@ -5,19 +5,18 @@
 package HomeWork;
 
 public class HTask1 {
-    public int factorial(int n) {
+    public static void main(String[] args) {
 
-        if (n < 0) return -1;
-        if (n == 0) return 1;
-        return n *factorial(n - 1);
-   
+        System.out.println(factorial(6));
     }
 
-    public static void main(String[] args) {
-        int n = 5;
-       
-        ht1 ans = new ht1();
-        int itresume_res = ans.factorial(n);
-        System.out.println(itresume_res);
+    public static int factorial(int n) {
+
+        if (n < 0)
+            return -1;
+        if (n == 0)
+            return 1;
+        return n * factorial(n - 1);
+
     }
 }
