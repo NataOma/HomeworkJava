@@ -5,23 +5,17 @@ package HomeWork;
 // факториал. Если число n < 0, метод должен вернуть -1.
 
 public class ht1 {
-    public int factorial(int n) {
-        
-        if (n < 0) {
-            return -1;
-        }
+    public static void main(String[] args) {
+
+        System.out.println(getFactorial(6));
+    }
+
+    public static Integer getFactorial(int f) {
         int result = 1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
+        for (int i = 1; i <= f; i++) {
+            result = result * i;
         }
         return result;
     }
 
-    public static void main(String[] args) {
-        int n = 5;
-       
-        ht1 ans = new ht1();
-        int itresume_res = ans.factorial(n);
-        System.out.println(itresume_res);
-    }
 }
